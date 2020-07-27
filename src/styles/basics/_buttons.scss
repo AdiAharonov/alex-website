@@ -1,0 +1,15 @@
+.info-btn {
+    min-width: 150px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: lighten($clr1, 20);
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    font-size: rem(18px);
+}
+
+.info-btn:hover {
+    background-color: $clr1;
+}
