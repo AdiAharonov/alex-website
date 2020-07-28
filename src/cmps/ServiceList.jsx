@@ -9,7 +9,7 @@ export function ServiceList() {
       }, []);
 
   return (
-    <div>
+    <div className="service-list" >
       {services &&
         services.map((service) => (
           <div className="service" key={service.name}>

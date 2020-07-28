@@ -1,6 +1,7 @@
 import React from 'react';
 import { ServiceList } from '../cmps/ServiceList';
 import ReactContactForm from 'react-mail-form';
+import { CarouselCmp } from '../cmps/Carousel';
 
 export function Home() {
   return (
@@ -12,7 +13,9 @@ export function Home() {
       />
       <div className="main-container">
         <h1>התקנות כל סוגי המערכות </h1>
-        <ServiceList className="service-list" />
+        <CarouselCmp />
+        <h2>צריך להתקין מערכת בבית או בעסק?</h2>
+        <ServiceList />
         <h2>אנחנו כאן לשירותכם</h2>
         <ReactContactForm
           to="adi.ahronov@gmail.com"
