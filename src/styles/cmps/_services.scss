@@ -1,0 +1,31 @@
+.services {
+
+
+    h2 {
+        font-size: 40px;
+        margin: 20px;
+    }
+    
+        
+        .service {
+            display: flex;
+            margin-top: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            img {
+              max-width: 300px;
+            }
+            .service-desc {
+              width: 100%;
+      
+             
+            }
+          }
+          .service:nth-child(odd) {
+            background-color: $clr4;
+          }
+    
+          button {
+              display: none;
+          }
+}

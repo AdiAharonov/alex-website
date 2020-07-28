@@ -7,17 +7,25 @@
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
   'top-left top-right'
-  'middle middle'
+  'top-left top-right'
   'footer footer';
 
   .top-left {
       display: flex;
       flex-direction: column;
-      grid-area: top-left middle;
+      justify-content: space-evenly;
+      grid-area: top-left;
+      height: 100%;
+      float: right;
 
     .contact {
         color: $clr1;
         font-size: 1.5rem;
+    }
+
+    h3 {
+        margin: 0 10px;
+        color: #fff;
     }
   }
 
@@ -28,26 +36,25 @@
     align-items: center;
     .footer-logo {
         width: 150px;
-        margin: 30px;
+        height: 100px;
       }
     
       .social-media {
         color: rgba(255, 255, 255, 0.7);
         font-size: rem(30px);
         padding: 5px;
-        border-radius: 3px;
-        border: 1px solid rgba(255, 255, 255, 0.5);
+       
         cursor: pointer;
         margin: 5px;
       }
 
       .fa-facebook-square:hover {
         color: $facebook;
-        border: 1px solid $facebook;
+        
       }
       .fa-youtube:hover {
         color: $youtube-red;
-        border: 1px solid $youtube-red;
+        
       }
 
   }

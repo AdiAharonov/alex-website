@@ -2,12 +2,14 @@ const gServices = [
     {
         name: "מצלמות אבטחה",
         img: "https://www.gov.il/BlobFolder/generalpage/surveillance_cameras_fqa/he/Camera.jpg",
-        desc: "התקן מערכת מצלמות בביתך או בבית העסק"
+        desc: "התקנת כל סוגי המצלמות ומכשירי הקלטה"
+        
     },
     {
         name: "גלאי עשן ואש",
         img: "https://images1.calcalist.co.il/PicServer2/20122005/72054/YE0639966_l.jpg",
         desc: "מערכת מקיפה של גלאי אש"
+        
     },
     {
         name: "ספרינקלרים",
@@ -16,10 +18,26 @@ const gServices = [
     }
 ];
 
+const gPhotos = [
+    "https://picsum.photos/200",
+    "https://picsum.photos/200",
+    "https://picsum.photos/200",
+    "https://picsum.photos/200",
+    "https://picsum.photos/200",
+    "https://picsum.photos/200",
+    "https://picsum.photos/200",
+    "https://picsum.photos/200"
+]
+
 function getServices() {
     return gServices;
   }
 
+function getPhotos() {
+    return gPhotos;
+}  
+
   export const BuissnesService = {
-      getServices
+      getServices,
+      getPhotos
   }

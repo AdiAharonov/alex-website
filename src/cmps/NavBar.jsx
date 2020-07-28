@@ -9,7 +9,7 @@ export  function NavBar() {
             <div className="categories">
                 <Link to="/about">מי אנחנו?</Link>
                 <Link to="/services">שירותים</Link>
-                <Link to="/about">צור קשר</Link>
+                <Link to="/contact">צור קשר</Link>
             </div>
         </nav>
     )
