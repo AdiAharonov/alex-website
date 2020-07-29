@@ -2,15 +2,20 @@ import React from 'react';
 import { ServiceList } from '../cmps/ServiceList';
 import ReactContactForm from 'react-mail-form';
 import { CarouselCmp } from '../cmps/Carousel';
+import { Button } from 'react-bootstrap';
 
 export function Home() {
   return (
     <div className="home">
       <img
         className="landing-page-image"
-        src="https://secureblackops.com/wp-content/uploads/2019/02/Security-System-Installation-1110x550.jpg"
+        src="https://costhack.com/wp-content/uploads/2019/11/surveillance-system-installation-cost.png"
         alt=""
       />
+      <div className="landing-quick-service">
+        <h2>הטמעת מערכות מקצועית</h2>
+        <Button variant="outline-danger">לפתיחת קריאה</Button>
+      </div>
       <div className="main-container">
         <h1>התקנות כל סוגי המערכות </h1>
         <CarouselCmp />

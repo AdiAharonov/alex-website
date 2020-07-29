@@ -8,7 +8,7 @@ const gServices = [
   {
     name: 'מצלמות אבטחה',
     img:
-      'https://www.gov.il/BlobFolder/generalpage/surveillance_cameras_fqa/he/Camera.jpg',
+      'https://securitytoday.com/-/media/SEC/Security-Products/Images/2019/12/SecurityInstallation.jpg',
     desc: 'התקנת כל סוגי המצלמות ומכשירי הקלטה',
   },
   {

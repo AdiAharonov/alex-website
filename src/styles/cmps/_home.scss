@@ -3,8 +3,35 @@
   
   .landing-page-image {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
   }
+
+  .landing-quick-service {
+    position: absolute;
+    top: 30%;
+    left: 60px;
+    padding: 20px;
+    background-color: rgba(238, 238, 238, 0.5);
+    border-radius: 10px;
+    animation: fadeout 3s linear 2s infinite alternate;
+  }
+
+  @keyframes fadeout {
+    0%  {opacity: 20%;}
+    20%  {opacity: 40%; }
+    40%  {opacity: 60%; }
+    60%  {opacity: 80%; }
+    80%  {opacity: 90%; }
+    100%  {opacity: 100%; }
+    80%  {opacity: 90%; }
+    60%  {opacity: 80%; }
+    40%  {opacity: 60%; }
+    20%  {opacity: 40%; }
+    0%  {opacity: 20%;}
+  }
+ 
+
+  
 
   text-align: center;
 
@@ -32,7 +59,7 @@
       .service {
         display: flex;
         margin-top: 10px;
-        border-radius: 5px;
+        border-radius: 4px;
         overflow: hidden;
         img {
           max-width: 300px;
@@ -44,7 +71,7 @@
         }
       }
       .service:nth-child(odd) {
-        background-color: $clr4;
+        background-color: transparentize($clr4, 0.6);
         direction: rtl;
       }
     }
