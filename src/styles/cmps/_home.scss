@@ -11,26 +11,12 @@
     top: 30%;
     left: 60px;
     padding: 20px;
-    background-color: rgba(238, 238, 238, 0.5);
+    background-color: rgba(238, 238, 238, 0.233);
     border-radius: 10px;
-    animation: fadeout 3s linear 2s infinite alternate;
+    opacity: 0.8;
   }
 
-  @keyframes fadeout {
-    0%  {opacity: 20%;}
-    20%  {opacity: 40%; }
-    40%  {opacity: 60%; }
-    60%  {opacity: 80%; }
-    80%  {opacity: 90%; }
-    100%  {opacity: 100%; }
-    80%  {opacity: 90%; }
-    60%  {opacity: 80%; }
-    40%  {opacity: 60%; }
-    20%  {opacity: 40%; }
-    0%  {opacity: 20%;}
-  }
- 
-
+  
   
 
   text-align: center;
@@ -40,11 +26,16 @@
 
     h1 {
         font-size: rem(50px);
+        border-bottom: 3px $clr1 solid;
     }
 
     h2 {
         margin-top: 40px;
         direction: rtl;
+    }
+
+    .main-h2 {
+      border-bottom: 3px $clr1 solid;
     }
 
     p {
@@ -60,14 +51,15 @@
         display: flex;
         margin-top: 10px;
         border-radius: 4px;
+        justify-content: space-between;
         overflow: hidden;
         img {
           max-width: 300px;
+          height: 200px;
         }
         .service-desc {
-          width: 100%;
-  
-         
+          width: 300px;
+          
         }
       }
       .service:nth-child(odd) {
@@ -81,8 +73,8 @@
         flex-direction: column;
         justify-content: space-evenly;
         min-width: 400px;
-        height: 300px;
-        margin: 0 auto;
+        height: 350px;
+        margin: 50px auto;
         direction: rtl;
 
         input {
@@ -100,6 +92,9 @@
 
         a {
             color: $clr1;
+            font-family: varela;
+            font-size: 1.3rem;
+            
         }
     }
   }

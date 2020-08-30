@@ -21,7 +21,7 @@ export function Footer() {
       <div className="top-right">
         <i className="fab fa-facebook-square social-media"></i>
         <i className="fab fa-youtube social-media"></i>
-        <img src={logo} className="footer-logo" alt="" />
+        <img src={logo} className="footer-logo" alt="logo" />
       </div>
       <div className="bottom">
         <p>Made By Adi Aharonov © 2020</p>

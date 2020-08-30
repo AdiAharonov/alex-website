@@ -19,14 +19,14 @@ export function Home() {
       <div className="main-container">
         <h1>התקנות כל סוגי המערכות </h1>
         <CarouselCmp />
-        <h2>צריך להתקין מערכת בבית או בעסק?</h2>
+        <h2 className="main-h2">צריך להתקין מערכת בבית או בעסק?</h2>
         <ServiceList />
         <h2>אנחנו כאן לשירותכם</h2>
         <ReactContactForm
           to="adi.ahronov@gmail.com"
-          contentsPlaceholder="צור קשר!"
+          contentsPlaceholder="הודעה"
           buttonText="שלח מייל"
-          titlePlaceholder="מה תהיה מעוניין לשאול"
+          titlePlaceholder="נושא"
           className="mail-form"
         />
       </div>

@@ -20,7 +20,7 @@ export function NavBar() {
   const opacity = Math.min(currentScrollHeight / 100, 1);
   const navBgc = `rgb(247, 255, 255,${opacity})`;
   const border = `rgb(162, 18, 18,${opacity})`;
-  console.log(opacity);
+
   return (
     <nav>
       <Navbar
